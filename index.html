@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profe Lucila Marotta | Clases Particulares</title>
+    
+    <meta name="description" content="Clases particulares de Matemática, Física y Química con Lucila Marotta. Nivel Primario y Secundario. Modalidad virtual y presencial.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><i class="fas fa-atom"></i> Profe <span>Lucila</span></div>
+        <ul class="nav-menu">
+            <li><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li><a href="#materias" class="nav-link">Materias</a></li>
+            <li><a href="#metodo" class="nav-link">Método</a></li>
+            <li><a href="#contacto" class="nav-link">Agendar</a></li>
+        </ul>
+        <a href="#contacto" class="btn-main" style="padding: 10px 20px; font-size: 0.8rem;">Reservar Clase</a>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <h1 class="reveal">¡Chau miedo a las<br><span>Exactas!</span> 🚀</h1>
+        <p class="reveal">Clases particulares personalizadas de Matemática, Física y Química. Prepará tus exámenes con confianza y entendé los temas de verdad.</p>
+        <div class="reveal" style="margin-top: 20px;">
+            <a href="#contacto" class="btn-main">Quiero aprobar <i class="fas fa-check-circle"></i></a>
+        </div>
+    </header>
+
+    <section id="materias" class="section-padding reveal">
+        <div class="section-title">
+            <h2>¿Qué materias preparo?</h2>
+            <p>Apoyo escolar para Nivel Primario y Secundario.</p>
+        </div>
+        
+        <div class="subjects-grid">
+            <div class="subject-card">
+                <div class="subject-icon"><i class="fas fa-calculator"></i></div>
+                <h3>Matemática</h3>
+                <ul>
+                    <li>Álgebra y Funciones</li>
+                    <li>Geometría y Trigonometría</li>
+                    <li>Análisis Matemático</li>
+                    <li>Cálculo y Estadística</li>
+                </ul>
+            </div>
+
+            <div class="subject-card">
+                <div class="subject-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Física</h3>
+                <ul>
+                    <li>Cinemática y Dinámica</li>
+                    <li>Energía y Trabajo</li>
+                    <li>Fluidos y Calor</li>
+                    <li>Electricidad básica</li>
+                </ul>
+            </div>
+
+            <div class="subject-card">
+                <div class="subject-icon"><i class="fas fa-flask"></i></div>
+                <h3>Química</h3>
+                <ul>
+                    <li>Estructura Atómica</li>
+                    <li>Uniones Químicas</li>
+                    <li>Estequiometría</li>
+                    <li>Soluciones y Gases</li>
+                </ul>
+            </div>
+
+            <div class="subject-card">
+                <div class="subject-icon"><i class="fas fa-book-reader"></i></div>
+                <h3>Ingresos y Apoyo</h3>
+                <ul>
+                    <li>Ingreso a Secundario</li>
+                    <li>Técnicas de Estudio</li>
+                    <li>Organización de Tareas</li>
+                    <li>Resolución de Problemas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="metodo" class="reveal">
+        <div class="profile-section">
+            <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?q=80&w=1469&auto=format&fit=crop" class="profile-img" alt="Profe Lucila">
+            
+            <div class="profile-text">
+                <span style="color: var(--primary); font-weight: 700; letter-spacing: 1px;">SOBRE MÍ</span>
+                <h2>Hola, soy Lucila 👋</h2>
+                <p>Me apasiona enseñar y ayudar a mis alumnos a superar sus desafíos académicos. Mi objetivo no es solo que apruebes, sino que <strong>entiendas la lógica</strong> detrás de los números.</p>
+                <p style="margin-top: 15px;">Mis clases son dinámicas, con ejemplos prácticos y mucha paciencia. Busco la forma de explicarte hasta que hagas el "click" y lo entiendas.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <strong>100%</strong>
+                        <span>Personalizado</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>Modalidad</strong>
+                        <span>Virtual y Presencial</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding reveal">
+        <div class="section-title"><h2>Dudas Frecuentes</h2></div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">¿Las clases son online o presenciales? <i class="fas fa-chevron-down faq-icon"></i></div>
+                <div class="faq-body">Ofrezco ambas modalidades: clases presenciales y también virtuales vía Meet/Zoom con pizarra digital, para que elijas lo que te quede más cómodo.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">¿Cuánto duran las clases? <i class="fas fa-chevron-down faq-icon"></i></div>
+                <div class="faq-body">Generalmente son bloques de 1 hora o 1 hora y media, dependiendo de la cantidad de temas que tengamos que ver y la necesidad del alumno.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">¿Preparas para exámenes de ingreso? <i class="fas fa-chevron-down faq-icon"></i></div>
+                <div class="faq-body">¡Sí! Preparo alumnos para ingresos a colegios secundarios, técnicos y universidades.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section-padding reveal">
+        <div class="contact-wrapper">
+            <div class="contact-left">
+                <h3 style="font-size: 2rem; margin-bottom: 20px;">¡Aprobemos esa materia! 📚</h3>
+                <p style="opacity: 0.9; margin-bottom: 30px;">Completá los datos para que sepa qué tenés que preparar y te paso disponibilidad horaria.</p>
+                <ul style="list-style: none; font-size: 1.1rem;">
+                    <li style="margin-bottom: 15px;">
+                        <a href="https://wa.me/5491132886675" style="color: white; text-decoration: none;">
+                            <i class="fab fa-whatsapp" style="margin-right:10px;"></i> 11 3288-6675
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 15px;">
+                        <i class="fas fa-laptop-house" style="margin-right:10px;"></i> Clases Virtuales y Presenciales
+                    </li>
+                    <li>
+                        <a href="mailto:marottalucila@gmail.com" style="color: white; text-decoration: none;">
+                            <i class="far fa-envelope" style="margin-right:10px;"></i> marottalucila@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contact-right">
+                <form onsubmit="sendToWhatsapp(event)">
+                    <div class="form-group">
+                        <label class="form-label">Nombre del Alumno/a</label>
+                        <input type="text" id="name" class="form-input" required placeholder="Ej: Lucas Pérez">
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="form-group">
+                            <label class="form-label">Nivel</label>
+                            <select id="level" class="form-select">
+                                <option value="Primaria">Primaria</option>
+                                <option value="Secundaria">Secundaria</option>
+                                <option value="Ingreso">Ingreso / CBC</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Año/Grado</label>
+                            <input type="text" id="year" class="form-input" placeholder="Ej: 3er Año">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Materia a preparar</label>
+                        <select id="subject" class="form-select">
+                            <option value="Matemática">Matemática</option>
+                            <option value="Física">Física</option>
+                            <option value="Química">Química</option>
+                            <option value="Apoyo General">Apoyo General</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Tema o Dificultad (Breve)</label>
+                        <input type="text" id="topic" class="form-input" placeholder="Ej: Funciones cuadráticas, prueba el viernes...">
+                    </div>
+
+                    <button type="submit" class="btn-main" style="width: 100%; justify-content: center;">
+                        Consultar Horarios <i class="fab fa-whatsapp"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Lucila Marotta. Potenciando el aprendizaje.</p>
+    </footer>
+
+    <a href="#" class="float-wa" id="floatBtn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // 1. Configuración de WhatsApp (DATOS DE LUCILA)
+        const phoneNumber = "5491132886675"; 
+
+        // Actualizar botón flotante
+        document.getElementById('floatBtn').href = `https://wa.me/${phoneNumber}`;
+
+        // 2. Envío del Formulario
+        function sendToWhatsapp(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const level = document.getElementById('level').value;
+            const year = document.getElementById('year').value;
+            const subject = document.getElementById('subject').value;
+            const topic = document.getElementById('topic').value;
+
+            // Mensaje formateado para Lucila
+            const text = `Hola Lucila! 👋%0ASoy ${name} (${level} - ${year}).%0ANecesito ayuda con: *${subject}*.%0ATema: ${topic}.%0A%0A¿Tenés horarios disponibles?`;
+            
+            window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
+        }
+
+        // 3. Acordeón
+        function toggleFaq(el) {
+            const item = el.parentElement;
+            item.classList.toggle('active');
+        }
+
+        // 4. Scroll Reveal
+        window.addEventListener('scroll', () => {
+            document.querySelectorAll('.reveal').forEach(r => {
+                if(r.getBoundingClientRect().top < window.innerHeight - 100) r.classList.add('active');
+            });
+        });
+        // Activar al inicio
+        document.querySelectorAll('.reveal').forEach(r => {
+            if(r.getBoundingClientRect().top < window.innerHeight - 100) r.classList.add('active');
+        });
+    </script>
+</body>
+</html>
